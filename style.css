@@ -1,0 +1,344 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_section {
+  display: flex;
+  gap: 3rem;
+  background-color: hsl(0, 100%, 100%);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  width: 100%;
+  max-width: 57.5rem;
+}
+
+.app_name {
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0;
+}
+
+#tip-5,
+#tip-10,
+#tip-15,
+#tip-25,
+#tip-50 {
+  background-color: hsl(183, 100%, 15%);
+  margin-bottom: 2.5rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 7.25rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  color: hsl(189, 47%, 97%);
+  height: 3rem;
+}
+
+#tip-5:active,
+#tip-10:active,
+#tip-15:active,
+#tip-25:active,
+#tip-50:active {
+  background-color: #9fe8df;
+  cursor: pointer;
+  color: #00474b;
+}
+
+#tip-5,
+#tip-10,
+#tip-15 {
+  background-color: hsl(183, 100%, 15%);
+  margin-bottom: 1rem;
+}
+
+.left_tip_section,
+.right_tip_section {
+  flex: 1; /* both take 50% of the space */
+}
+
+.right_tip_section {
+  flex: 1;
+}
+.fieldset {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1rem;
+  width: 23.6875rem;
+}
+
+.left_tip_section {
+  background-color: #00494d;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  color: white;
+  flex: 1;
+}
+
+.tip_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second_tip_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.label_amount {
+  color: hsl(0, 100%, 100%);
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin: 0px;
+}
+
+.person_line {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin: 0px;
+  line-height: 1.1875rem;
+  color: hsl(184, 14%, 56%);
+}
+
+#total-amount {
+  font-size: 3rem;
+  color: hsl(172, 67%, 45%);
+}
+
+.second_total_amount {
+  font-size: 3rem;
+  color: hsl(172, 67%, 45%);
+}
+
+.tip_header,
+.select_tip_header,
+.number_of_people_header {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 0.5rem;
+}
+
+#bill {
+  margin-bottom: 2.5rem;
+  padding: 8px 16px 8px 16px;
+  width: 100%;
+  max-width: 22rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f9fa;
+  height: 3rem;
+}
+
+#people_number {
+  margin-bottom: 2.5rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 22rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f9fa;
+  height: 3rem;
+}
+
+.custom-tip {
+  box-sizing: border-box;
+  background-color: #f3f9fa;
+  margin-bottom: 2.5rem;
+  padding: 0.375rem 0rem 0.375rem 0.75rem;
+  width: 100%;
+  max-width: 7.27rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: #547878;
+}
+
+.custom-tip:active {
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#reset_button {
+  width: 100%;
+  /* max-width: 333px; */
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  color: hsl(183, 100%, 15%);
+  background-color: #0d686d;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#reset_button:active {
+  background-color: #9fe8df;
+  cursor: pointer;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 1.875rem;
+  padding-right: 0.625rem;
+  border-radius: 8px;
+  background-color: #f4fafa;
+  font-size: 1.5rem;
+  color: #547878;
+  font-weight: bold;
+  text-align: right;
+}
+
+.input-icon {
+  position: absolute;
+  left: 0.625rem;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 0.9375rem;
+  height: 0.9375rem;
+  fill: #9ebbbd;
+  pointer-events: none;
+}
+
+.bill_tip_header {
+  margin-bottom: 0.3125rem;
+  font-weight: bold;
+  color: #547878;
+  font-size: 1rem;
+}
+
+.splitter-title {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.error_message {
+  display: none;
+  color: #e17052;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.error_message.visible {
+  display: block;
+}
+
+.people_error {
+  display: none;
+  color: #e17052;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.people_error.visible {
+  display: block;
+}
+
+.input_valid {
+  border: 2px solid hsl(172, 67%, 45%) !important;
+  outline: none;
+}
+
+.input_invalid {
+  border: 2px solid #e17052 !important;
+  outline: none;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tip_header {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.tip_amount_per_person {
+  color: hsl(172, 67%, 45%);
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.tip_line {
+  margin-bottom: 1.5rem;
+}
+
+.second_tip_line {
+  margin-bottom: 11rem;
+}
+
+.total_per_person {
+  color: hsl(172, 67%, 45%);
+  font-size: 3rem;
+  margin: 0px;
+}
+
+/* Stack vertically on tablet and smaller */
+@media (max-width: 1024px) {
+  .form_section {
+    flex-direction: column;
+  }
+
+  .right_tip_section {
+    order: 1;
+  }
+
+  .left_tip_section {
+    order: 2;
+  }
+}
+
+/* On desktop, default layout is side-by-side */
+@media (min-width: 1025px) {
+  .form_section {
+    flex-direction: row;
+  }
+
+  .right_tip_section {
+    order: 1;
+  }
+
+  .left_tip_section {
+    order: 2;
+  }
+}

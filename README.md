@@ -53,8 +53,15 @@ tip-calculator-app/
 ---
 
 ## ✅ How to Use
+## 🚀 Getting Started
 
-1. Clone the repository or download the files.
+To view this project locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/karina-krupodior/Tip-Calculator-App.git
+   2.Navigate to the project folder: cd qr-code-component
+
 2. Open `index.html` in your browser.
 3. Enter the bill amount.
 4. Select a tip percentage or enter a custom one.
@@ -85,11 +92,12 @@ This project is open-source and available for any use or modification.
 
 **Your Name Here**
 
-- GitHub: [yourusername](https://github.com/yourusername)
-- LinkedIn: [yourlinkedin](https://linkedin.com/in/yourlinkedin)
+- GitHub: https://github.com/karina-krupodior/Tip-Calculator-App
+- LinkedIn: https://www.linkedin.com/in/karyna-krupodor-71a203203/
 
 ---
 
+Live Demo
+Check out the live site here:
 Enjoy calculating tips like a pro! 💵
 ```
-# Tip-Calculator-App
