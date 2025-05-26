@@ -1,9 +1,8 @@
-
 # 💸 Tip Calculator App
 
-A responsive **Tip Calculator App**
-- Built using **HTML**, **CSS**, and **JavaScript**.
-- This tool allows users to easily calculate how much to tip and split the bill between multiple people.
+A responsive **Tip Calculator App**  
+- Built using **HTML**, **CSS**, and **JavaScript**  
+- Easily calculate how much to tip and split the bill between multiple people.
 
 ![Tip Calculator App Screenshot](./images/screenshot.png)
 
@@ -12,8 +11,8 @@ A responsive **Tip Calculator App**
 ## 🚀 Features
 
 - Input total bill amount
-- Select or enter custom tip percentage
-- Enter number of people to split the bill
+- Select or enter a custom tip percentage
+- Enter the number of people to split the bill
 - See per person tip amount and total
 - Reset the form
 - Fully responsive design
@@ -27,19 +26,14 @@ A responsive **Tip Calculator App**
 
 tip-calculator-app/
 │
-├── images/                  # Icons and favicon
-├── index.html               # Main HTML file
-├── style.css                # Styling (CSS)
-├── script.js                # JavaScript logic
-└── README.md                # Project documentation
+├── design/
+├── images/                 # Icons and favicon
+├── index.html              # Main HTML file
+├── style.css               # Styling (CSS)
+├── script.js               # JavaScript logic
+└── README.md               # Project documentation
 
-```
-
----
-
-## 📷 Preview
-
-> You can open `index.html` in your browser to use the calculator.
+````
 
 ---
 
@@ -52,7 +46,6 @@ tip-calculator-app/
 
 ---
 
-## ✅ How to Use
 ## 🚀 Getting Started
 
 To view this project locally:
@@ -60,14 +53,24 @@ To view this project locally:
 1. Clone this repository:
    ```bash
    git clone https://github.com/karina-krupodior/Tip-Calculator-App.git
-   2.Navigate to the project folder: cd qr-code-component
+````
 
-2. Open `index.html` in your browser.
-3. Enter the bill amount.
-4. Select a tip percentage or enter a custom one.
-5. Enter the number of people.
-6. View calculated tip and total per person.
-7. Use the **Reset** button to start over.
+2. Navigate to the project folder:
+
+   ```bash
+   cd Tip-Calculator-App
+   ```
+3. Open `index.html` in your browser.
+
+---
+
+## ✅ How to Use
+
+1. Enter the bill amount.
+2. Select a tip percentage or enter a custom one.
+3. Enter the number of people.
+4. View the calculated tip and total per person.
+5. Use the **Reset** button to start over.
 
 ---
 
@@ -75,29 +78,28 @@ To view this project locally:
 
 Feel free to:
 
-- Change color themes in `style.css`
-- Improve accessibility and ARIA labels
-- Add dark mode support
-- Enhance form validations
+* Change color themes in `style.css`
+* Improve accessibility and ARIA labels
+* Add dark mode support
+* Enhance form validations
 
 ---
 
-## 📄 License
-
-This project is open-source and available for any use or modification.
+## 🌐 Live Demo
+Check out the live site here:
+👉 https://karina-krupodior.github.io/Tip-Calculator-App/
 
 ---
 
 ## ✨ Author
 
-**Your Name Here**
+**Karina Krupodior**
 
-- GitHub: https://github.com/karina-krupodior/Tip-Calculator-App
-- LinkedIn: https://www.linkedin.com/in/karyna-krupodor-71a203203/
+* GitHub: [karina-krupodior](https://github.com/karina-krupodior)
+* LinkedIn: [Karyna Krupodor](https://www.linkedin.com/in/karyna-krupodor-71a203203/)
 
 ---
 
-Live Demo
-Check out the live site here:
 Enjoy calculating tips like a pro! 💵
+
 ```
